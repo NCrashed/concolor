@@ -1,0 +1,10 @@
+{
+	"name" : "concolor-example-01-simple",
+	"copyright": "© 2014 Anton Gushcha",
+	"description" : "Demostrates simple usage of the library",
+	"license": "MIT",
+	"authors": ["Anton Gushcha (NCrashed) <ncrashed@gmail.com>"],
+	"dependencies" : {
+		"concolor": {"version": "~master", "path": "../.."}  
+	}
+}
