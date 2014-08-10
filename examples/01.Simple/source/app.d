@@ -5,10 +5,11 @@
 */
 module example01;
 
+import std.stdio;
 import concolor;
 
 void main()
 {
-    cwriteln("Hello world!", foreground.green, " Green color!", foreground.red, " Red color!");
-    cwriteln("Show how to reset color. ", background.white, "some text", background.reset);
+    writeln("Hello world!", foreground.green, " Green color!", foreground.red, " Red color!");
+    writeln("Show how to reset color. ", background.white, "some text", background.reset);
 }
