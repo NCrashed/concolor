@@ -6,7 +6,7 @@
 module example01;
 
 import std.stdio;
-import concolor;
+import concolor.d;
 
 void main()
 {
